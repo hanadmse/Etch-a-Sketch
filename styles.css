@@ -1,0 +1,23 @@
+.row {
+    width: 960px;
+    height: 60px;
+    display:flex;
+    background-color: red;
+    border: 2px solid black
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 2px solid black
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 960px;
+    background-color: blue
+}
+
