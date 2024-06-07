@@ -2,7 +2,6 @@
     width: 960px;
     height: 60px;
     display:flex;
-    background-color: red;
     border: 2px solid black
 }
 
@@ -14,10 +13,15 @@
 }
 
 .container {
+    padding: 100px;
     display: flex;
     flex-direction: column;
     width: 960px;
     height: 960px;
-    background-color: blue
 }
 
+body {
+    justify-content: center;
+    display:flex;
+
+}
